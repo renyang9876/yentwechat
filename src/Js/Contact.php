@@ -30,7 +30,7 @@ class Contact extends AbstractAPI
     /**
      * Group ticket cache prefix.
      */
-    const GROUP_TICKET_CACHE_PREFIX = 'entwechat.group_ticket.';
+    const GROUP_TICKET_CACHE_PREFIX = 'yentwechat.group_ticket.';
 
     /**
      * Api of group ticket.

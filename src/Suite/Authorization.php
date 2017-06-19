@@ -8,8 +8,8 @@ use YEntWeChat\Suite\Api\BaseApi;
 
 class Authorization
 {
-    const CACHE_KEY_ACCESS_TOKEN = 'EntWeChat.suite.authorizer_access_token';
-    const CACHE_KEY_PERMANENT_CODE = 'EntWeChat.suite.authorizer_permanent_code';
+    const CACHE_KEY_ACCESS_TOKEN = 'YEntWeChat.suite.authorizer_access_token';
+    const CACHE_KEY_PERMANENT_CODE = 'YEntWeChat.suite.authorizer_permanent_code';
 
     /**
      * Cache.

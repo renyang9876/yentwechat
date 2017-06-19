@@ -248,7 +248,7 @@ class Application extends Container
             return;
         }
 
-        $logger = new Logger('entwechat');
+        $logger = new Logger('yentwechat');
 
         if (!$this['config']['debug'] || defined('PHPUNIT_RUNNING')) {
             $logger->pushHandler(new NullHandler());
@@ -256,11 +256,11 @@ class Application extends Container
             $logger->pushHandler($this['config']['log.handler']);
         } elseif ($logFile = $this['config']['log.file']) {
             $logger->pushHandler(new StreamHandler(
-                    $logFile,
-                    $this['config']->get('log.level', Logger::WARNING),
-                    true,
-                    $this['config']->get('log.permission', null))
-            );
+                $logFile,
+                $this['config']->get('log.level', Logger::WARNING),
+                true,
+                $this['config']->get('log.permission', null)
+            ));
         }
 
         Log::setLogger($logger);

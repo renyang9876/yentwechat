@@ -45,7 +45,7 @@ trait PrefixedContainer
      * Get the `class basename` of the current class.
      * Convert `class basename` to snake-case and concatenation with dot notation.
      *
-     * E.g. Class 'EntWechat', $key foo -> 'ent_wechat.foo'
+     * E.g. Class 'YEntWechat', $key foo -> 'ent_wechat.foo'
      *
      * @param string $key The unique identifier for the parameter or object
      *

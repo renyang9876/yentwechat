@@ -65,7 +65,7 @@ class AccessToken
      *
      * @var string
      */
-    protected $prefix = 'entwechat.common.access_token.';
+    protected $prefix = 'yentwechat.common.access_token.';
 
     // API
     const API_TOKEN_GET = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken';

@@ -25,7 +25,7 @@ class Ticket
      *
      * @var string
      */
-    protected $prefix = 'EntWeChat.suite.suite_ticket.';
+    protected $prefix = 'YEntWeChat.suite.suite_ticket.';
     /**
      * Cache Key.
      *

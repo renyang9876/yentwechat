@@ -29,7 +29,7 @@ class Card extends AbstractAPI
      *
      * @var string
      */
-    protected $ticketCachePrefix = 'entwechat.card_api_ticket.';
+    protected $ticketCachePrefix = 'yentwechat.card_api_ticket.';
 
     const API_CREATE_CARD = 'https://qyapi.weixin.qq.com/cgi-bin/card/create';
     const API_CREATE_QRCODE = 'https://qyapi.weixin.qq.com/cgi-bin/card/qrcode/create';

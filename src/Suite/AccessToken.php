@@ -30,7 +30,7 @@ class AccessToken extends CoreAccessToken
     /**
      * {@inheritdoc}.
      */
-    protected $prefix = 'EntWeChat.suite.suite_access_token.';
+    protected $prefix = 'YEntWeChat.suite.suite_access_token.';
 
     /**
      * Set VerifyTicket.
