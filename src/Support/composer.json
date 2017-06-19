@@ -1,0 +1,32 @@
+{
+  "name": "yentwechat/support",
+  "description": "support module for EntWeChat SDK.",
+  "keywords": [
+    "wechat",
+    "weixin",
+    "SDK",
+    "support",
+    "entwechat"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "renyang9876",
+      "email": "renyang9876@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "YEntWeChat\\Support\\": "."
+    }
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "mockery/mockery": "^1.0@dev"
+  },
+  "require": {
+    "monolog/monolog": "1.*",
+    "ext-SimpleXML": "*"
+  }
+}
