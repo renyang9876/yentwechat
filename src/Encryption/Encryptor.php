@@ -103,6 +103,25 @@ class Encryptor
      *
      * @return array
      */
+    public function decryptEcho($msgSignature, $nonce, $timestamp, $echo)
+    {
+        $encrypted = $echo;
+
+        return $this->decrypt($encrypted, $this->id);
+    }
+
+    /**
+     * Decrypt message.
+     *
+     * @param string $msgSignature
+     * @param string $nonce
+     * @param string $timestamp
+     * @param string $postXML
+     *
+     * @throws EncryptionException
+     *
+     * @return array
+     */
     public function decryptMsg($msgSignature, $nonce, $timestamp, $postXML)
     {
         try {

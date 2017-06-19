@@ -129,6 +129,12 @@ class Guard
         $this->validate($this->token);
 
         if ($str = $this->request->get('echostr')) {
+            $str = $this->encryptor->decryptEcho(
+                $this->request->get('msg_signature'),
+                $this->request->get('nonce'),
+                $this->request->get('timestamp'),
+                $str
+            );
             Log::debug("Output 'echostr' is '$str'.");
 
             return new Response($str);
