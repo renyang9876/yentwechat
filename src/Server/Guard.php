@@ -466,6 +466,6 @@ class Guard
      */
     private function isSafeMode()
     {
-        return $this->request->get('encrypt_type') && $this->request->get('encrypt_type') === 'aes';
+        return true;
     }
 }
