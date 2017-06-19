@@ -19,7 +19,7 @@ WeChat Enterprise SDK based on **[EasyWeChat 3.X](https://github.com/overtrue/we
 ## Installation
 
 ```shell
-composer require "freyo/entwechat" -vvv
+composer require "renyang9876/yentwechat" -vvv
 ```
 
 ## Usage
